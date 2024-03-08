@@ -1,0 +1,14 @@
+
+
+spring:
+  application:
+    name: welcome
+
+  boot:
+    admin:
+      client:
+        url: http://localhost:8080/
+
+
+server:
+  port: 3030
