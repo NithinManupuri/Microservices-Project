@@ -16,7 +16,7 @@ public class AppRestController {
 
 	@GetMapping("/welcome")
 	public ResponseEntity<String> getMsg() {
-		String msg = "hi";//service.msg();
+		String msg = service.msg();
 		return new ResponseEntity<>(msg, HttpStatus.OK);
 
 	}
